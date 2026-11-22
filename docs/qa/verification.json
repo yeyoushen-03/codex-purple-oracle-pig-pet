@@ -87,5 +87,12 @@
     "两行视线交界的转头幅度略大；复核未发现明显整身缩放、位移跳变或身份变化。",
     "原生Codex客户端画面未验证；本机已安装，文件验证和浏览器预览通过。",
     "实际动作触发与时序由客户端控制。"
-  ]
+  ],
+  "subsequent_feedback": {
+    "date": "2026-11-23",
+    "state": "running-left",
+    "issue": "箭头朝左但弓弦与拉弦手布局仍朝右；8帧均受影响。",
+    "status": "repair_in_progress",
+    "invalidated": "Previous row2 visual acceptance; all other findings remain scoped to v2.1.0."
+  }
 }
