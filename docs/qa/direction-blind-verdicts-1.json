@@ -1,0 +1,90 @@
+{
+  "reviewer": "final_blind_1",
+  "source": "isolated worker response, classifications unchanged; reasons summarized",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "ambiguous",
+      "B": "screen-left",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "ambiguous",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "Pupil, snout and head orientation at native size; ambiguous marks insufficient lateral/vertical evidence."
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "directions": {
+    "000": {
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "horizontal_evidence": "Head remains broadly frontal; no strong left/right bias.",
+      "vertical_evidence": "Chin and muzzle lift, nostril/muzzle undersurface is visible, and both eyes look upward beneath the hat.",
+      "reason": "Head remains broadly frontal; no strong left/right bias. Chin and muzzle lift, nostril/muzzle undersurface is visible, and both eyes look upward beneath the hat.",
+      "direction": "000",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "022.5": {
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right; secondary axis subtle",
+      "horizontal_evidence": "Very small screen-right eye/muzzle bias relative to 000; the right component is subtle.",
+      "vertical_evidence": "Same clear raised-chin/upward-eyed family as 000.",
+      "reason": "Very small screen-right eye/muzzle bias relative to 000; the right component is subtle. Same clear raised-chin/upward-eyed family as 000. Aggregated blind horizontal axis was ambiguous; native labeled/ordered review confirms a weak right component with clear up.",
+      "blind_review_note": "Aggregated blind horizontal axis was ambiguous; native labeled/ordered review confirms a weak right component with clear up.",
+      "direction": "022.5",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "045": {
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "Pupils and nose/muzzle are directed toward screen-right; rightward head participation is readable.",
+      "vertical_evidence": "Raised chin and upturned eye openings preserve an upward component.",
+      "reason": "Pupils and nose/muzzle are directed toward screen-right; rightward head participation is readable. Raised chin and upturned eye openings preserve an upward component.",
+      "direction": "045",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "067.5": {
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right; secondary axis subtle",
+      "horizontal_evidence": "Clear screen-right pupil/muzzle aim.",
+      "vertical_evidence": "Chin/eye aim remains slightly elevated compared with 090; vertical component is restrained.",
+      "reason": "Clear screen-right pupil/muzzle aim. Chin/eye aim remains slightly elevated compared with 090; vertical component is restrained. Aggregated blind vertical axis was ambiguous; labeled comparison with 090 supports shallow up-right.",
+      "blind_review_note": "Aggregated blind vertical axis was ambiguous; labeled comparison with 090 supports shallow up-right.",
+      "direction": "067.5",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "090": {
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "horizontal_evidence": "Both pupils sit toward screen-right within the visible eye apertures, and the muzzle turns toward the bow/screen-right side.",
+      "vertical_evidence": "Head and gaze are approximately level; it does not read as an up/down cardinal.",
+      "reason": "Both pupils sit toward screen-right within the visible eye apertures, and the muzzle turns toward the bow/screen-right side. Head and gaze are approximately level; it does not read as an up/down cardinal.",
+      "direction": "090",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "112.5": {
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down-right; secondary axis subtle",
+      "horizontal_evidence": "Pupils and muzzle remain biased to screen-right.",
+      "vertical_evidence": "Head pitches down from 090, eyelids lower and muzzle/chin descend; shallow down-right is readable.",
+      "reason": "Pupils and muzzle remain biased to screen-right. Head pitches down from 090, eyelids lower and muzzle/chin descend; shallow down-right is readable. Aggregated blind vertical axis was ambiguous; labeled comparison with 090/135 supports shallow down-right.",
+      "blind_review_note": "Aggregated blind vertical axis was ambiguous; labeled comparison with 090/135 supports shallow down-right.",
+      "direction": "112.5",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "135": {
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "Face/muzzle and eye aim remain on the screen-right side.",
+      "vertical_evidence": "Bowed forehead, lowered eyelids and lowered muzzle clearly carry the downward component.",
+      "reason": "Face/muzzle and eye aim remain on the screen-right side. Bowed forehead, lowered eyelids and lowered muzzle clearly carry the downward component.",
+      "direction": "135",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "157.5": {
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "The muzzle and eyes still point to screen-right, with a restrained right component.",
+      "vertical_evidence": "Strong downward pitch and lowered eyelids keep it in the down-right quadrant.",
+      "reason": "The muzzle and eyes still point to screen-right, with a restrained right component. Strong downward pitch and lowered eyelids keep it in the down-right quadrant.",
+      "direction": "157.5",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "180": {
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "horizontal_evidence": "Both eyes are aimed downward toward the centered working/bow line; modest asymmetric head drawing does not create a clear lateral gaze.",
+      "vertical_evidence": "Head bows, forehead becomes more visible, both pupils sit low under lowered lids and muzzle points down.",
+      "reason": "Both eyes are aimed downward toward the centered working/bow line; modest asymmetric head drawing does not create a clear lateral gaze. Head bows, forehead becomes more visible, both pupils sit low under lowered lids and muzzle points down.",
+      "direction": "180",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "202.5": {
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left; secondary axis subtle",
+      "horizontal_evidence": "The muzzle/eyes shift slightly screen-left relative to 180, but this near-vertical left component is weak.",
+      "vertical_evidence": "Clearly bowed-head/downward-eyed family; downward component is strong.",
+      "reason": "The muzzle/eyes shift slightly screen-left relative to 180, but this near-vertical left component is weak. Clearly bowed-head/downward-eyed family; downward component is strong.",
+      "direction": "202.5",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "225": {
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left; secondary axis subtle",
+      "horizontal_evidence": "Head, muzzle and both eyes aim clearly toward screen-left.",
+      "vertical_evidence": "Slight downward pitch/lowered lids and a lower muzzle than the level-left family support shallow down-left; the downward component is much weaker than the left component.",
+      "reason": "Head, muzzle and both eyes aim clearly toward screen-left. Slight downward pitch/lowered lids and a lower muzzle than the level-left family support shallow down-left; the downward component is much weaker than the left component. Aggregated blind vertical axis was ambiguous; lowered lids/slight down pitch plus ordered down-left family support a shallow down component.",
+      "blind_review_note": "Aggregated blind vertical axis was ambiguous; lowered lids/slight down pitch plus ordered down-left family support a shallow down component.",
+      "direction": "225",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "247.5": {
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left; secondary axis subtle",
+      "horizontal_evidence": "Screen-left head turn and pupil aim are definite.",
+      "vertical_evidence": "Only a small remaining down-pitch/low-eyelid cue distinguishes it from 270; it nearly reads as level-left. Ordered 202.5 -> 225 -> 247.5 -> 270 progression supports the intended quadrant, with no upward or opposite-quadrant cue.",
+      "reason": "Screen-left head turn and pupil aim are definite. Only a small remaining down-pitch/low-eyelid cue distinguishes it from 270; it nearly reads as level-left. Ordered 202.5 -> 225 -> 247.5 -> 270 progression supports the intended quadrant, with no upward or opposite-quadrant cue.",
+      "direction": "247.5",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "270": {
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "horizontal_evidence": "Muzzle/nose projects to screen-left and both pupils aim screen-left, with visible head yaw rather than pupil-only motion.",
+      "vertical_evidence": "Eye/head aim is approximately level; no strong vertical cardinal signal.",
+      "reason": "Muzzle/nose projects to screen-left and both pupils aim screen-left, with visible head yaw rather than pupil-only motion. Eye/head aim is approximately level; no strong vertical cardinal signal.",
+      "direction": "270",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "292.5": {
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left; secondary axis subtle",
+      "horizontal_evidence": "Muzzle and pupils clearly turn screen-left.",
+      "vertical_evidence": "Chin starts lifting and eye aim rises relative to 270, giving a shallow but readable upward component.",
+      "reason": "Muzzle and pupils clearly turn screen-left. Chin starts lifting and eye aim rises relative to 270, giving a shallow but readable upward component. Aggregated blind vertical axis was ambiguous; raised chin/eye aim relative to 270 supports shallow up-left.",
+      "blind_review_note": "Aggregated blind vertical axis was ambiguous; raised chin/eye aim relative to 270 supports shallow up-left.",
+      "direction": "292.5",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "315": {
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "Definite screen-left muzzle and eye aim.",
+      "vertical_evidence": "Lifted chin/muzzle and upward-oriented eyes clearly carry the up component.",
+      "reason": "Definite screen-left muzzle and eye aim. Lifted chin/muzzle and upward-oriented eyes clearly carry the up component.",
+      "direction": "315",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    },
+    "337.5": {
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "Head/muzzle and eyes retain a screen-left bias.",
+      "vertical_evidence": "Raised chin and upturned eyes remain clear; it stays in the up-left quadrant approaching 000.",
+      "reason": "Head/muzzle and eyes retain a screen-left bias. Raised chin and upturned eyes remain clear; it stays in the up-left quadrant approaching 000.",
+      "direction": "337.5",
+      "reviewed_on": "final cleaned and palette-calibrated candidate"
+    }
+  }
+}
