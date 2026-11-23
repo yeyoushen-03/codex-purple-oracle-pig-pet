@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "sha256": "f20572015e897f734335534fdd464eb4648298d53ee87dc3befe97fd555d5034",
+  "changed_rows": [
+    1,
+    2
+  ],
+  "unchanged_rows": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "neutral_and_gaze_exact": true,
+  "occupied_cells": 74,
+  "hidden_rgb_zero": true,
+  "preview_visible_rgba_exact": true,
+  "run_frame_duration_ms": 100,
+  "extra_final_hold": false,
+  "scope": "Pixel checks only; requires separate gait and proportion review."
+}

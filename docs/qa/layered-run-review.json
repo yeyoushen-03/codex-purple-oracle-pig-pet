@@ -1,0 +1,59 @@
+{
+  "reviewer": "left_bow_generation_v4",
+  "review_type": "independent static and decoded animation-frame visual QA",
+  "artifact": "/Users/yeyou/Documents/codex优化/pets/purple-oracle-pig/repair-v7/qa/layered-preview/spritesheet.webp",
+  "atlas_sha256": "f20572015e897f734335534fdd464eb4648298d53ee87dc3befe97fd555d5034",
+  "reviewed_files_sha256": {
+    "spritesheet.webp": "f20572015e897f734335534fdd464eb4648298d53ee87dc3befe97fd555d5034",
+    "spritesheet.png": "5b53e0d7a52fd5140d78ebc71163eede2c034a3f1f066ef19ea139fe6cb2491d",
+    "contact-light.png": "800857b710f0d4edaf18cb3ae1c9eacf978dfe2bbfe66a4db34c947d7410cf53",
+    "contact-dark.png": "f7e53bdc9d0ef2b63b8976aa6dcbe6ee30a4ea6fc337ddb0f6f8ccd2d31be9b8",
+    "leg-phases.png": "2c051ee08dd2b3afb4467a4783aff960bddb4bea762b2a2aeabdeb7c3038e8ad",
+    "previews/paired-runs.webp": "ab632e89535f6cb9b541b8cfbd6521ee4ef0138fd1fb2838e469fedcd9bde95a"
+  },
+  "verdict": "pass_with_minor_warnings_for_preview",
+  "major_issues": [],
+  "scope": {
+    "static": "Final light/dark contacts, native192x208 paired decoded frames, magnified legs; rechecked final right-row pixels after cuff fix.",
+    "dynamic": "Decoded and visually inspected all8 paired WebP frames in order, including8→1. No actual real-time playback or Codex native client observed.",
+    "prior_verdicts": "No absolute or prior-generation pass/fail inherited. Final atlas hash verified."
+  },
+  "checks": {
+    "proportions": {
+      "verdict": "pass",
+      "evidence": "Left/right both retain round broad cheeks, large head and short plump torso beside canonical at native192x208. Left is no longer conspicuously thin; head/body remain stable across own8 frames."
+    },
+    "opposite_leg_phase": {
+      "verdict": "pass",
+      "evidence": "Right1 foreground thigh/boot sits forward(screen-right) from its hip, far leg trails left; right5 foreground swings back(left), far swings forward(right), partly overlapping. Left1 foreground leg swings forward(left) while far swings right and boots overlap; left5 foreground swings back(right), far swings forward(left) with separated boots. Motion JSON inspected only as secondary confirmation of those visible changes."
+    },
+    "two_legs_two_feet": {
+      "verdict": "pass",
+      "evidence": "All16 candidate poses have two leg chains/two boots; overlap hides the far boot in some phases, with no third independent boot observed."
+    },
+    "weapon_and_hat": {
+      "verdict": "pass",
+      "evidence": "Right one bow and arrowhead screen-right; left one bow at screen-left glove with right glove drawing at chest, arrowhead left. Knot stays screen-left and bent tip screen-right in both directions; no whole-pig mirror defect."
+    },
+    "hip_knee_seams": {
+      "verdict": "warning_minor",
+      "evidence": "Final right broad rectangular pink flap is gone in frames4–6. No detached knee/boot or transparent crack through connected leg observed. Left4–6 inner trouser edge and right4–6 outer cuff retain small1–2px pointed cloth corners at magnification; native192 size reads as cloth edge, not major tear."
+    },
+    "loop_continuity": {
+      "verdict": "pass_frame_sequence_only",
+      "evidence": "Eight distinct successive short-step poses; first and last are neighboring swing states, no extra final hold, stable upper body and no conspicuous framewise scale pop. Timing-sensitive judder/sliding not certified without playback."
+    },
+    "palette": {
+      "verdict": "pass_static",
+      "evidence": "No conspicuous within-row color outlier in hat, cheeks, trousers, wings or gold on both backgrounds; directional lighting differences remain."
+    }
+  },
+  "minor_warnings": [
+    "Small rigid-layer cloth edge points at1–2px and overlapping boots during passing poses.",
+    "Short-step motion is mechanically bounded; actual real-time foot planting/sliding and naturalness remain unobserved."
+  ],
+  "handoff_limits": [
+    "Suitable for user preview under observed static/frame sequence scope.",
+    "Does not certify real-time animation playback, native Codex behavior, installation or publication."
+  ]
+}

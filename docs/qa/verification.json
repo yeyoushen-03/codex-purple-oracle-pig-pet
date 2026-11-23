@@ -1,7 +1,7 @@
 {
-  "version": "v2.1.1",
+  "version": "v2.1.2",
   "date": "2026-11-23",
-  "atlas_sha256": "b4e9a1324779b5bf22e86fe90a060be7534307e8eacbed309a387217611f9997",
+  "atlas_sha256": "f20572015e897f734335534fdd464eb4648298d53ee87dc3befe97fd555d5034",
   "format": {
     "width": 1536,
     "height": 2288,
@@ -21,13 +21,15 @@
     "look_frames_independent_review": 16,
     "blind_reviewers": 3,
     "cardinal_blind_majority": "pass",
-    "browser_playback": "desktop1280x720; mobile390x844; native192x208; light/dark; normal and equal cadence",
+    "browser_playback": "883x913 and390x844; native192x208; light/dark;8frames100ms",
     "zip_crc_and_hashes": "pass",
     "same_atlas_in_project_install_zip": true,
     "row2_weapon_hands_independent_review": "pass; left grip, right draw hand, left arrowhead; unique bow/arrow",
-    "other10_rows_and_neutral_pixel_identical_to_v2_1_0": true,
-    "light_hop": "explicit user preference",
-    "package_author_contact_qr": "included"
+    "package_author_contact_qr": "included",
+    "other9_rows_neutral_and_gaze_pixel_identical_to_v2_1_1": true,
+    "layered_run_user_accepted": "2026-11-23; 用户答复「可以」",
+    "paired_run_16_frames_review": "pass with minor cloth-edge warnings",
+    "installed_v2_validation": "pass"
   },
   "warnings": [
     {
@@ -82,8 +84,8 @@
     },
     {
       "type": "animation",
-      "state": "running-left",
-      "reason": "User-approved light-hop gait; narrower3/4 silhouette and preview final-frame220ms hold."
+      "state": "running-left/running-right",
+      "reason": "User-accepted short layered steps;1–2px cloth-edge points; no guaranteed foot planting."
     }
   ],
   "limitations": [
@@ -94,13 +96,13 @@
   ],
   "resolved_feedback": {
     "left_bow": "Replaced all8 row2 poses with swapped bow/draw hand roles; no old right bow.",
-    "publication_info": "README, repository description, release notes and newZIP consistently identify author and default WeChat contact."
+    "publication_info": "README, repository description, release notes and newZIP consistently identify author and default WeChat contact.",
+    "directional_runs": "User accepted layered left/right preview; fixed body scale, alternating legs and bow hands."
   },
   "release_evidence": [
-    "left-bow-review.json",
-    "left-bow-pixel-verification.json",
-    "atlas-validation.json",
-    "left-bow-browser-review.json",
-    "preview-verification.json"
+    "layered-run-review.json",
+    "layered-run-pixel-verification.json",
+    "layered-run-browser-review.json",
+    "atlas-validation.json"
   ]
 }

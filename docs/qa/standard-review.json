@@ -1,9 +1,9 @@
 {
-  "overall": "pass",
-  "scope": "v2.1.1 standard rows0-8: row2 independently re-reviewed; other rows pixel-identical to v2.1.0",
+  "overall": "pass_with_minor_warnings",
+  "scope": "v2.1.2: row1/2 re-reviewed and user accepted; remaining standard rows pixel-identical to v2.1.1",
   "shared_checks": {
     "identity": "pass: same rounded pink pig, large dark eyes, violet wizard hat with gold eye emblem and pale bow, layered purple clothing, pale feather wings and gold bow/arrow in every state.",
-    "proportions": "pass: no conspicuous within-row head/body scale pop or extraction-induced resize; jump height and directional/failed posture changes read as poses.",
+    "proportions": "Fixed per-direction head/body artwork, no per-frame stretch; paired run preview accepted by user.",
     "grip": "pass: bow remains connected to its holding hand in all 57 frames. The free hand moves independently in waving/waiting/running without the bow teleporting or losing its contact point.",
     "palette": "pass: warm pink skin, violet/lilac hat and clothing, pale lavender-white feathers, and gold prop remain coherent against idle. Pose lighting changes are modest; no conspicuous isolated material recolor.",
     "white_backing": "pass: no visible white panel or white source-background fragment in sleeve/cape/trouser/bow gaps on the dark sheets. White/light regions read as attached feather structures and small design highlights.",
@@ -23,20 +23,22 @@
       "row": 1,
       "state": "running-right",
       "frames": 8,
-      "verdict": "pass",
-      "evidence": "Face and arrow aim screen-right. Legs alternate between gathered, extended and passing strides; cape and body follow the cadence. Face/hat size and the bow grip stay coherent across all eight frames.",
+      "verdict": "pass_with_minor_warnings",
+      "evidence": "Layered legs alternate around fixed body; same bones reverse relative hip offsets at phases1/5. User accepted exact final paired preview.",
       "blockers": [],
-      "minor_warnings": []
+      "minor_warnings": [
+        "Short mechanically bounded steps; small1–2px cloth-edge points."
+      ]
     },
     {
       "row": 2,
       "state": "running-left",
       "frames": 8,
-      "verdict": "pass",
-      "evidence": "All8 poses: screen-left hand grips one left bow; right hand draws at chest/arrow tail; one arrowhead left; old right bow absent. Accepted light-hop gait; stable upper-body scale and loop.",
+      "verdict": "pass_with_minor_warnings",
+      "evidence": "Layered legs alternate around fixed body; same bones reverse relative hip offsets at phases1/5. User accepted exact final paired preview.",
       "blockers": [],
       "minor_warnings": [
-        "Narrower3/4 silhouette; preview final-frame220ms hold."
+        "Short mechanically bounded steps; small1–2px cloth-edge points."
       ]
     },
     {
@@ -99,12 +101,12 @@
   "concrete_blockers": [],
   "minor_warnings": [
     {
-      "row": "running-left",
-      "issue": "More compact gait amplitude than running-right; visible cadence still passes."
-    },
-    {
       "row": "running",
       "issue": "Restrained focused-work/thinking semantics; head and free-hand progression make it distinct from idle."
+    },
+    {
+      "row": "running-left/running-right",
+      "issue": "User accepted layered short steps and minor cloth corners."
     }
   ]
 }

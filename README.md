@@ -2,11 +2,12 @@
 
 紫色魔法帽、白色羽翼与金色弓箭的小猪角色，沿用柔和的 3D 玩具质感、紫罗兰衣料与暖粉肤色。本仓库发布适配 Codex V2 的非官方自定义桌宠素材包，包含9组状态动作和16个注视方向。
 
-素材包版本 **v2.1.1**；`spriteVersionNumber: 2` 表示素材格式版本。项目标注见 [project-info.json](project-info.json)。
+素材包版本 **v2.1.2**；`spriteVersionNumber: 2` 表示素材格式版本。项目标注见 [project-info.json](project-info.json)。
 
 <p align="center">
   <img src="assets/previews/idle.webp" width="192" height="208" alt="紫曜小猪待机" />
-  <img src="assets/previews/running-left.webp" width="192" height="208" alt="紫曜小猪左跑换手" />
+  <img src="assets/previews/running-left.webp" width="192" height="208" alt="紫曜小猪分层左跑" />
+  <img src="assets/previews/running-right.webp" width="192" height="208" alt="紫曜小猪分层右跑" />
   <img src="assets/previews/look-loop.webp" width="192" height="208" alt="紫曜小猪视线方向" />
 </p>
 
@@ -46,7 +47,9 @@
 
 ## 验收与已知差异
 
-v2.1.1 重做向左移动的8帧，交换持弓手与拉弦手，使弓及箭尖位于屏幕左侧，箭尾/拉弦手在右侧。保留用户确认的轻跳步态。其余动作、16方向视线和独立正面姿势保持不变。8帧换手、单弓单箭、透明边缘、角色比例和循环衔接经独立复核通过；图集V2结构、无损像素及原生尺寸浅深底浏览器播放通过。左移侧身较窄，末帧预览略停。
+v2.1.2 将向左、向右移动各8帧改为分层腿部动画：固定圆润头脸和躯干比例，两腿交替前后摆动，保留左跑左侧握弓、右侧拉弦的关系及帽子不对称细节。采用用户确认的短步幅效果。其余9行、16方向视线和独立正面姿势逐像素保持不变。
+
+最终图集V2验证、无损像素与其他行一致性检查通过；预览每帧100毫秒、无额外末帧停顿，原生尺寸浅深底及桌面/窄屏浏览器显示检查通过。用户已确认同步预览。少量裤脚边缘仍有1–2像素尖角；分层动作没有保证锁脚。
 
 少数斜向变化较小，两行交界转头幅度略大；原生客户端显示未验证。详见[验收记录](docs/qa/verification.json)。
 

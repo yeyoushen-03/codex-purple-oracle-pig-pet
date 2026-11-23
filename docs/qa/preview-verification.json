@@ -1,105 +1,69 @@
 {
   "ok": true,
+  "version": "v2.1.2",
+  "atlas_sha256": "f20572015e897f734335534fdd464eb4648298d53ee87dc3befe97fd555d5034",
   "animations": [
     {
       "state": "idle",
       "frames": 6,
-      "size": [
-        192,
-        208
-      ],
       "webp_visible_pixels_and_alpha_exact": true
     },
     {
       "state": "running-right",
       "frames": 8,
-      "size": [
-        192,
-        208
-      ],
       "webp_visible_pixels_and_alpha_exact": true
     },
     {
       "state": "running-left",
       "frames": 8,
-      "size": [
-        192,
-        208
-      ],
       "webp_visible_pixels_and_alpha_exact": true
     },
     {
       "state": "waving",
       "frames": 4,
-      "size": [
-        192,
-        208
-      ],
       "webp_visible_pixels_and_alpha_exact": true
     },
     {
       "state": "jumping",
       "frames": 5,
-      "size": [
-        192,
-        208
-      ],
       "webp_visible_pixels_and_alpha_exact": true
     },
     {
       "state": "failed",
       "frames": 8,
-      "size": [
-        192,
-        208
-      ],
       "webp_visible_pixels_and_alpha_exact": true
     },
     {
       "state": "waiting",
       "frames": 6,
-      "size": [
-        192,
-        208
-      ],
       "webp_visible_pixels_and_alpha_exact": true
     },
     {
       "state": "running",
       "frames": 6,
-      "size": [
-        192,
-        208
-      ],
       "webp_visible_pixels_and_alpha_exact": true
     },
     {
       "state": "review",
       "frames": 6,
-      "size": [
-        192,
-        208
-      ],
       "webp_visible_pixels_and_alpha_exact": true
     },
     {
       "state": "look-loop",
       "frames": 16,
-      "size": [
-        192,
-        208
-      ],
       "webp_visible_pixels_and_alpha_exact": true
     },
     {
+      "state": "paired-runs",
+      "frames": 8,
+      "exact_source": "user-accepted layered-preview",
+      "duration_ms": 100
+    },
+    {
       "state": "cross-state",
-      "frames": 24,
-      "size": [
-        192,
-        208
-      ],
-      "webp_visible_pixels_and_alpha_exact": true
+      "frames": 8,
+      "exact_source": "user-accepted layered-preview",
+      "duration_ms": 450
     }
-  ],
-  "before_after": "previews/before-after.webp"
+  ]
 }

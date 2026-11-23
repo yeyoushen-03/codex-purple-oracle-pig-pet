@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-23",
+  "atlas_sha256": "f20572015e897f734335534fdd464eb4648298d53ee87dc3befe97fd555d5034",
+  "browser": "Codex in-app browser",
+  "actual_sprite_css_size": [
+    192,
+    208
+  ],
+  "viewports": [
+    {
+      "width": 883,
+      "height": 913,
+      "layout": "two columns"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "layout": "single column, light/dark stacked"
+    }
+  ],
+  "backgrounds": [
+    "light neutral",
+    "dark purple"
+  ],
+  "observed": [
+    "Both run directions rendered at native size on both backgrounds.",
+    "Multiple decoded phases visibly changed between browser screenshots.",
+    "Head and torso proportions stable in the eight-frame contact sheet; left/right perspective retained.",
+    "Canonical idle and direction state switching rendered.",
+    "No horizontal overflow or clipped native sprites on narrow viewport."
+  ],
+  "limits": [
+    "Browser frame observations plus all-frame inspection; no native Codex pet display test.",
+    "Short bounded steps; no guaranteed foot-plant model.",
+    "Left inner trouser edge retains a 1–2px pointed cloth contour at enlarged view."
+  ],
+  "temporary_viewport_reset": true
+}
