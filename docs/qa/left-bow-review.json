@@ -1,0 +1,70 @@
+{
+  "reviewer": "left-motion-second-independent-review",
+  "date": "2026-11-23",
+  "verdict": "pass",
+  "maximum_issue_severity": "minor",
+  "candidate": "spritesheet.webp",
+  "candidate_sha256": "b4e9a1324779b5bf22e86fe90a060be7534307e8eacbed309a387217611f9997",
+  "acceptance_contract": "Left-run uses screen-left hand on one left bow, screen-right hand drawing at chest/arrow-tail, one arrowhead pointing left; old right bow absent. User accepted the light hopping gait.",
+  "inspection": [
+    "All 8 native row-2 cells ordered and at 2x nearest-neighbor",
+    "All 8 decoded lossless preview frames, alpha and visible-pixel comparison",
+    "Light gray and dark purple composites",
+    "Detailed weapon/interior-alpha composite on dark green",
+    "7,8,1,2 seam strip",
+    "Canonical idle, old left row and new left row at matching native cell sizes"
+  ],
+  "checks": [
+    {
+      "area": "weapon_and_hands",
+      "result": "pass",
+      "severity": "none",
+      "observations": "All eight cells show one gold bow at screen-left, with the left glove around its grip. One arrow shaft runs to one left-facing gold arrowhead. Right glove remains at chest/shaft tail, with the two string segments converging toward that hand. No right-side old bow, second shaft, second arrowhead, duplicated hand or detached bow section is visible."
+    },
+    {
+      "area": "character_identity",
+      "result": "pass",
+      "severity": "none",
+      "observations": "Hat knot stays screen-left and hat tip curves screen-right; the entire character was not mirrored. Pink pig face, purple eyes, eye brooch, lavender-white wings, gold-trimmed violet jacket, pink trousers and boots retain the canonical identity. Far-side wing seen beside the screen-left cheek retains lavender feather texture."
+    },
+    {
+      "area": "scale_and_proportions",
+      "result": "pass",
+      "severity": "minor",
+      "observations": "The new row looks narrower/slimmer than the old left row, particularly in face and torso. Against canonical idle, hat/head height remains close and 3/4 left presentation explains much of the width change. It does not read as a different character or a conspicuous head/body scale pop. Across all 8 new frames the head, hat and upper-body scale remain stable; leg extension changes total silhouette height.",
+      "measurement_caveat": "Alpha>127 overall bbox: canonical 159x198; old-left cell1 163x194; new-left cell1 139x180 and cell5 138x194. These include wings, weapons and pose, so bbox dimensions do not directly measure anatomical scale."
+    },
+    {
+      "area": "color",
+      "result": "pass",
+      "severity": "none",
+      "observations": "New row stays in the same violet, pink, white/lavender and gold family. Lighting differs slightly with the side view, but no conspicuous hue jump, green/cyan contamination, or frame-specific color flash is visible."
+    },
+    {
+      "area": "alpha_and_internal_cutouts",
+      "result": "pass",
+      "severity": "none",
+      "observations": "Bow interior and gaps around the grip, string, face, jacket, legs and wings reveal the dark compositing background. No opaque white background fragment or rectangle is visible. The light shape beside the left cheek is a lavender feathered far wing, not a flat white patch. Bow and feet remain within cell boundaries."
+    },
+    {
+      "area": "motion_and_loop",
+      "result": "pass",
+      "severity": "minor",
+      "observations": "The accepted light hopping motion is visible, with extended first stride, tucked middle poses and later lowered foot. 8 to 1 holds upper-body registration and continues into the next extension. There is a modest lower-leg pose change at the seam, with no weapon teleport or scale jump. Preview timing is 120ms for cells1-7 and220ms for cell8; the final hold can add a slight loop pause, but is not a blocking jump."
+    },
+    {
+      "area": "lossless_preview",
+      "result": "pass",
+      "severity": "none",
+      "observations": "All 8 decoded preview frames have alpha exactly equal to atlas cells and identical RGBA for every visible pixel; only RGB under fully transparent pixels may differ."
+    }
+  ],
+  "major_failures": [],
+  "limitations": [
+    "Native Codex client playback not observed; motion assessment used ordered decoded frames and encoded timing.",
+    "Unchanged other rows and neutral were not re-audited here; parent has separate deterministic verification."
+  ],
+  "candidate_modified": false,
+  "installed_or_published": false,
+  "scope_note": "Review ran before installation/publication."
+}

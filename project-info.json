@@ -2,7 +2,7 @@
   "name": "紫曜小猪",
   "id": "purple-oracle-pig",
   "kind": "Codex 自定义桌面宠物素材包",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "spriteVersionNumber": 2,
   "description": "紫色魔法帽、白色羽翼与金色弓箭的小猪角色，提供9组状态动作和16个注视方向。",
   "author": {
@@ -15,5 +15,10 @@
     "image": "assets/contact/wechat-qr.png"
   },
   "provenance": "基于用户提供的角色参考，由 AI 辅助生成和整理。",
-  "rights": "未另行授予素材的商用或再许可权利。"
+  "rights": "未另行授予素材的商用或再许可权利。",
+  "changes": [
+    "左跑时交换持弓手与拉弦手，弓及箭尖置于屏幕左侧",
+    "保留用户确认的轻跳步态",
+    "统一作者、联系方式和项目介绍标注"
+  ]
 }

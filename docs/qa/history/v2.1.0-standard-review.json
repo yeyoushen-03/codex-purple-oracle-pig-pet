@@ -1,0 +1,110 @@
+{
+  "overall": "pass",
+  "scope": "Final candidate standard rows 0-8 only; no look-state review.",
+  "shared_checks": {
+    "identity": "pass: same rounded pink pig, large dark eyes, violet wizard hat with gold eye emblem and pale bow, layered purple clothing, pale feather wings and gold bow/arrow in every state.",
+    "proportions": "pass: no conspicuous within-row head/body scale pop or extraction-induced resize; jump height and directional/failed posture changes read as poses.",
+    "grip": "pass: bow remains connected to its holding hand in all 57 frames. The free hand moves independently in waving/waiting/running without the bow teleporting or losing its contact point.",
+    "palette": "pass: warm pink skin, violet/lilac hat and clothing, pale lavender-white feathers, and gold prop remain coherent against idle. Pose lighting changes are modest; no conspicuous isolated material recolor.",
+    "white_backing": "pass: no visible white panel or white source-background fragment in sleeve/cape/trouser/bow gaps on the dark sheets. White/light regions read as attached feather structures and small design highlights.",
+    "silhouette": "pass: complete bodies, hats, wings and props; no visible slot overlaps, detached effects, floor patches, or cropped tips."
+  },
+  "row_results": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frames": 6,
+      "verdict": "pass",
+      "evidence": "Quiet breathing/settling plus open -> narrowed -> closed -> wink -> open eyelids; body, hat and bow remain stable. The loop is visibly varied without becoming a gesture.",
+      "blockers": [],
+      "minor_warnings": []
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frames": 8,
+      "verdict": "pass",
+      "evidence": "Face and arrow aim screen-right. Legs alternate between gathered, extended and passing strides; cape and body follow the cadence. Face/hat size and the bow grip stay coherent across all eight frames.",
+      "blockers": [],
+      "minor_warnings": []
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frames": 8,
+      "verdict": "pass",
+      "evidence": "Snout, eyes and arrow clearly face screen-left. Feet and knees alternate through low/open and compact lifted poses; hat, head and bow-hand attachment remain stable.",
+      "blockers": [],
+      "minor_warnings": [
+        "The leftward stride is more compact than the rightward stride, but it still alternates visibly and reads as movement."
+      ]
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frames": 4,
+      "verdict": "pass",
+      "evidence": "Free hand rises from chest/lower pose toward cheek/ear, then returns, with an accompanying wink. Bow remains held on screen-right; no wave marks or detached effects.",
+      "blockers": [],
+      "minor_warnings": []
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frames": 5,
+      "verdict": "pass",
+      "evidence": "Whole body rises to a middle-frame apex and falls again; feet gather during lift. Head, torso and bow retain their practical size. No floor shadow or landing marks.",
+      "blockers": [],
+      "minor_warnings": []
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frames": 8,
+      "verdict": "pass",
+      "evidence": "Lowered eyelids, bowed head and drooping ears/wings form a clearly dejected pose family. Head dip progresses without an abrupt head/body resize; free hand and bow-holding hand remain attached.",
+      "blockers": [],
+      "minor_warnings": []
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frames": 6,
+      "verdict": "pass",
+      "evidence": "Expectant palm-out asking pose alternates with hand-to-chin/cheek, inquisitive head tilt, and expressive open mouth/eyes. It is distinct from idle and review. Bow grip remains connected throughout.",
+      "blockers": [],
+      "minor_warnings": []
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frames": 6,
+      "verdict": "pass",
+      "evidence": "Feet stay planted while gaze and head progressively dip toward the bow/hand work, then the free hand moves to chin/cheek and reaches outward before returning. This is visible focused thinking/checking effort, beyond an idle eye blink; it is not literal foot-running.",
+      "blockers": [],
+      "minor_warnings": [
+        "Work is conveyed through focused bow/hand inspection and a thinking gesture; the effort is restrained rather than energetic."
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frames": 6,
+      "verdict": "pass",
+      "evidence": "Stable focused/downward-attentive pose with an open -> half-closed -> closed -> half-closed -> open blink progression. Hands and bow remain steady; this restrained blink is permitted for review semantics.",
+      "blockers": [],
+      "minor_warnings": []
+    }
+  ],
+  "concrete_blockers": [],
+  "minor_warnings": [
+    {
+      "row": "running-left",
+      "issue": "More compact gait amplitude than running-right; visible cadence still passes."
+    },
+    {
+      "row": "running",
+      "issue": "Restrained focused-work/thinking semantics; head and free-hand progression make it distinct from idle."
+    }
+  ]
+}

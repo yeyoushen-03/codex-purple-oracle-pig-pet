@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "date": "2026-11-23",
+  "atlas_sha256": "b4e9a1324779b5bf22e86fe90a060be7534307e8eacbed309a387217611f9997",
+  "url": "Local native-size QA page, desktop and mobile viewports",
+  "viewports": [
+    [
+      1280,
+      720
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "native_sprite_size": [
+    192,
+    208
+  ],
+  "checks": {
+    "light_dark_native_playback": "pass: left bow/left arrowhead, left grip and right nock hand stable; no duplicate bow",
+    "identity_proportions": "pass with minor narrower3/4 side silhouette; head/hat stable",
+    "color_alpha": "pass: coherent violet/pink/gold, no white background residue or opaque negative gaps",
+    "responsive": "pass: cards wrap into vertical stack with readable labels",
+    "loop": "pass with minor last-frame220ms hold"
+  },
+  "user_preference": "light-hop gait explicitly accepted; earlier arrow-only right-facing arrangement rejected",
+  "native_client_display_verified": false
+}

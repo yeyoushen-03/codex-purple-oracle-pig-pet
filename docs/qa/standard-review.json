@@ -1,6 +1,6 @@
 {
   "overall": "pass",
-  "scope": "Final candidate standard rows 0-8 only; no look-state review.",
+  "scope": "v2.1.1 standard rows0-8: row2 independently re-reviewed; other rows pixel-identical to v2.1.0",
   "shared_checks": {
     "identity": "pass: same rounded pink pig, large dark eyes, violet wizard hat with gold eye emblem and pale bow, layered purple clothing, pale feather wings and gold bow/arrow in every state.",
     "proportions": "pass: no conspicuous within-row head/body scale pop or extraction-induced resize; jump height and directional/failed posture changes read as poses.",
@@ -33,10 +33,10 @@
       "state": "running-left",
       "frames": 8,
       "verdict": "pass",
-      "evidence": "Snout, eyes and arrow clearly face screen-left. Feet and knees alternate through low/open and compact lifted poses; hat, head and bow-hand attachment remain stable.",
+      "evidence": "All8 poses: screen-left hand grips one left bow; right hand draws at chest/arrow tail; one arrowhead left; old right bow absent. Accepted light-hop gait; stable upper-body scale and loop.",
       "blockers": [],
       "minor_warnings": [
-        "The leftward stride is more compact than the rightward stride, but it still alternates visibly and reads as movement."
+        "Narrower3/4 silhouette; preview final-frame220ms hold."
       ]
     },
     {

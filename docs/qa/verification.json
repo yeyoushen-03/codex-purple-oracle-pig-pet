@@ -1,7 +1,7 @@
 {
-  "version": "v2.1.0",
+  "version": "v2.1.1",
   "date": "2026-11-23",
-  "atlas_sha256": "1659c74b199a68e34054647c01a1b69095ffce8b9ef919032cad7fe07a9eb76b",
+  "atlas_sha256": "b4e9a1324779b5bf22e86fe90a060be7534307e8eacbed309a387217611f9997",
   "format": {
     "width": 1536,
     "height": 2288,
@@ -23,7 +23,11 @@
     "cardinal_blind_majority": "pass",
     "browser_playback": "desktop1280x720; mobile390x844; native192x208; light/dark; normal and equal cadence",
     "zip_crc_and_hashes": "pass",
-    "same_atlas_in_project_install_zip": true
+    "same_atlas_in_project_install_zip": true,
+    "row2_weapon_hands_independent_review": "pass; left grip, right draw hand, left arrowhead; unique bow/arrow",
+    "other10_rows_and_neutral_pixel_identical_to_v2_1_0": true,
+    "light_hop": "explicit user preference",
+    "package_author_contact_qr": "included"
   },
   "warnings": [
     {
@@ -73,13 +77,13 @@
     },
     {
       "type": "animation",
-      "state": "running-left",
-      "reason": "Stride is more compact than running-right, but visibly alternates."
+      "state": "running",
+      "reason": "Focused-work/thinking action is restrained; head dip, hand-to-chin and outward hand motion distinguish it from idle."
     },
     {
       "type": "animation",
-      "state": "running",
-      "reason": "Focused-work/thinking action is restrained; head dip, hand-to-chin and outward hand motion distinguish it from idle."
+      "state": "running-left",
+      "reason": "User-approved light-hop gait; narrower3/4 silhouette and preview final-frame220ms hold."
     }
   ],
   "limitations": [
@@ -88,11 +92,15 @@
     "原生Codex客户端画面未验证；本机已安装，文件验证和浏览器预览通过。",
     "实际动作触发与时序由客户端控制。"
   ],
-  "subsequent_feedback": {
-    "date": "2026-11-23",
-    "state": "running-left",
-    "issue": "箭头朝左但弓弦与拉弦手布局仍朝右；8帧均受影响。",
-    "status": "repair_in_progress",
-    "invalidated": "Previous row2 visual acceptance; all other findings remain scoped to v2.1.0."
-  }
+  "resolved_feedback": {
+    "left_bow": "Replaced all8 row2 poses with swapped bow/draw hand roles; no old right bow.",
+    "publication_info": "README, repository description, release notes and newZIP consistently identify author and default WeChat contact."
+  },
+  "release_evidence": [
+    "left-bow-review.json",
+    "left-bow-pixel-verification.json",
+    "atlas-validation.json",
+    "left-bow-browser-review.json",
+    "preview-verification.json"
+  ]
 }

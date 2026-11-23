@@ -1,12 +1,12 @@
 # 紫曜小猪 · Codex 自定义桌面宠物
 
-戴着紫色魔法帽、长着羽翼并手持金弓的小猪。沿用柔和的 3D 玩具质感、紫罗兰衣料与暖粉肤色，本仓库发布适配 Codex V2 的非官方自定义桌宠素材包，包含9组状态动作和16个注视方向。
+紫色魔法帽、白色羽翼与金色弓箭的小猪角色，沿用柔和的 3D 玩具质感、紫罗兰衣料与暖粉肤色。本仓库发布适配 Codex V2 的非官方自定义桌宠素材包，包含9组状态动作和16个注视方向。
 
-当前素材包版本 **v2.1.0**；`spriteVersionNumber: 2` 表示素材格式版本。项目标注见 [project-info.json](project-info.json)。
+素材包版本 **v2.1.1**；`spriteVersionNumber: 2` 表示素材格式版本。项目标注见 [project-info.json](project-info.json)。
 
 <p align="center">
   <img src="assets/previews/idle.webp" width="192" height="208" alt="紫曜小猪待机" />
-  <img src="assets/previews/jumping.webp" width="192" height="208" alt="紫曜小猪跳跃" />
+  <img src="assets/previews/running-left.webp" width="192" height="208" alt="紫曜小猪左跑换手" />
   <img src="assets/previews/look-loop.webp" width="192" height="208" alt="紫曜小猪视线方向" />
 </p>
 
@@ -46,7 +46,9 @@
 
 ## 验收与已知差异
 
-v2.1.0 修正左移、跳跃、工作、检查和视线的比例与衔接，统一配色并清理内部白色残片。后续反馈确认向左移动8帧的箭与弓弦方向不一致，正在修复；该行先前的视觉通过结论已撤回。已检查73个动画帧、独立方向盲审与原生尺寸浏览器播放。少数斜向变化较小，两行交界转头幅度略大；原生客户端显示未验证。详见[验收记录](docs/qa/verification.json)。
+v2.1.1 重做向左移动的8帧，交换持弓手与拉弦手，使弓及箭尖位于屏幕左侧，箭尾/拉弦手在右侧。保留用户确认的轻跳步态。其余动作、16方向视线和独立正面姿势保持不变。8帧换手、单弓单箭、透明边缘、角色比例和循环衔接经独立复核通过；图集V2结构、无损像素及原生尺寸浅深底浏览器播放通过。左移侧身较窄，末帧预览略停。
+
+少数斜向变化较小，两行交界转头幅度略大；原生客户端显示未验证。详见[验收记录](docs/qa/verification.json)。
 
 ## 作者与交流
 

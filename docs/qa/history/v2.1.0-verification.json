@@ -1,0 +1,98 @@
+{
+  "version": "v2.1.0",
+  "date": "2026-11-23",
+  "atlas_sha256": "1659c74b199a68e34054647c01a1b69095ffce8b9ef919032cad7fe07a9eb76b",
+  "format": {
+    "width": 1536,
+    "height": 2288,
+    "cell": [
+      192,
+      208
+    ],
+    "occupied_cells": 74,
+    "animation_frames": 73,
+    "dedicated_neutral": 1
+  },
+  "checks": {
+    "v2_validation": "pass",
+    "lossless_rgba": "pass",
+    "hidden_rgb_zero": "pass",
+    "standard_frames_independent_review": 57,
+    "look_frames_independent_review": 16,
+    "blind_reviewers": 3,
+    "cardinal_blind_majority": "pass",
+    "browser_playback": "desktop1280x720; mobile390x844; native192x208; light/dark; normal and equal cadence",
+    "zip_crc_and_hashes": "pass",
+    "same_atlas_in_project_install_zip": true
+  },
+  "warnings": [
+    {
+      "type": "direction_semantics",
+      "direction": "022.5",
+      "reason": "Very small screen-right eye/muzzle bias relative to 000; the right component is subtle. Same clear raised-chin/upward-eyed family as 000. Aggregated blind horizontal axis was ambiguous; native labeled/ordered review confirms a weak right component with clear up."
+    },
+    {
+      "type": "direction_semantics",
+      "direction": "067.5",
+      "reason": "Clear screen-right pupil/muzzle aim. Chin/eye aim remains slightly elevated compared with 090; vertical component is restrained. Aggregated blind vertical axis was ambiguous; labeled comparison with 090 supports shallow up-right."
+    },
+    {
+      "type": "direction_semantics",
+      "direction": "112.5",
+      "reason": "Pupils and muzzle remain biased to screen-right. Head pitches down from 090, eyelids lower and muzzle/chin descend; shallow down-right is readable. Aggregated blind vertical axis was ambiguous; labeled comparison with 090/135 supports shallow down-right."
+    },
+    {
+      "type": "direction_semantics",
+      "direction": "202.5",
+      "reason": "The muzzle/eyes shift slightly screen-left relative to 180, but this near-vertical left component is weak. Clearly bowed-head/downward-eyed family; downward component is strong."
+    },
+    {
+      "type": "direction_semantics",
+      "direction": "225",
+      "reason": "Head, muzzle and both eyes aim clearly toward screen-left. Slight downward pitch/lowered lids and a lower muzzle than the level-left family support shallow down-left; the downward component is much weaker than the left component. Aggregated blind vertical axis was ambiguous; lowered lids/slight down pitch plus ordered down-left family support a shallow down component."
+    },
+    {
+      "type": "direction_semantics",
+      "direction": "247.5",
+      "reason": "Screen-left head turn and pupil aim are definite. Only a small remaining down-pitch/low-eyelid cue distinguishes it from 270; it nearly reads as level-left. Ordered 202.5 -> 225 -> 247.5 -> 270 progression supports the intended quadrant, with no upward or opposite-quadrant cue."
+    },
+    {
+      "type": "direction_semantics",
+      "direction": "292.5",
+      "reason": "Muzzle and pupils clearly turn screen-left. Chin starts lifting and eye aim rises relative to 270, giving a shallow but readable upward component. Aggregated blind vertical axis was ambiguous; raised chin/eye aim relative to 270 supports shallow up-left."
+    },
+    {
+      "type": "continuity",
+      "pair": "157.5->180",
+      "reason": "Head/muzzle yaw and minor clothing/wing pose changes are larger than some within-row steps, consistent with the reported diff outlier. Feet/torso anchor, practical scale and bow grip remain coherent; no conspicuous registration/identity/scale snap is confirmed."
+    },
+    {
+      "type": "continuity",
+      "pair": "337.5->000",
+      "reason": "Up-left yaw returns toward centered-up with a larger change than the close 315/337.5 pair. Upward attention, body anchor and prop contact continue; no visible reversal or conspicuous scale snap."
+    },
+    {
+      "type": "animation",
+      "state": "running-left",
+      "reason": "Stride is more compact than running-right, but visibly alternates."
+    },
+    {
+      "type": "animation",
+      "state": "running",
+      "reason": "Focused-work/thinking action is restrained; head dip, hand-to-chin and outward hand motion distinguish it from idle."
+    }
+  ],
+  "limitations": [
+    "部分斜向的次级方向幅度较小，角度步进并非严格等幅。",
+    "两行视线交界的转头幅度略大；复核未发现明显整身缩放、位移跳变或身份变化。",
+    "原生Codex客户端画面未验证；本机已安装，文件验证和浏览器预览通过。",
+    "实际动作触发与时序由客户端控制。"
+  ],
+  "subsequent_feedback": {
+    "date": "2026-11-23",
+    "state": "running-left",
+    "issue": "箭头朝左但弓弦与拉弦手布局仍朝右；8帧均受影响。",
+    "status": "repair_in_progress",
+    "invalidated": "Previous row2 visual acceptance; all other findings remain scoped to v2.1.0."
+  }
+}
